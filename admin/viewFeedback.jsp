@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Manage Feedback</title>
+<title>Manage Feedbacks</title>
 <!-- plugins:css -->
 <link rel="stylesheet"
 	href="adminResources/css/materialdesignicons.min.css">
@@ -44,8 +44,12 @@
 			<div class="main-panel">
 				<div class="content-wrapper">
 					<div class="card">
+						<div class="card-header"
+							style="background: linear-gradient(91deg, #7571f9, transparent);"\>
+							<h3 class="m-0 text-white">Feedbacks</h3>
+						</div>
 						<div class="card-body">
-							<h4 class="card-title">Feedbacks</h4>
+
 							<div class="row">
 								<div class="col-12">
 									<div class="table-responsive">
@@ -61,19 +65,15 @@
 											<tbody>
 												<tr>
 													<td>ahiraniket@outlook.in</td>
-													<td>
-														<i class="mdi mdi-star lead"></i>
-														<i class="mdi mdi-star lead"></i>
-														<i class="mdi mdi-star lead"></i>
-														<i class="mdi mdi-star lead"></i>
-													</td>
-													<td>In publishing and graphic design, Lorem ipsum is a placeholder text 
-													</td>
-													<td>
-														<a href="">
-															<i class="mdi mdi-delete lead text-danger ml-3"></i>
-														</a>
-													</td>
+													<td><i class="mdi mdi-star lead"></i> <i
+														class="mdi mdi-star lead"></i> <i
+														class="mdi mdi-star lead"></i> <i
+														class="mdi mdi-star lead"></i></td>
+													<td>In publishing and graphic design, Lorem ipsum is a
+														placeholder text</td>
+													<td><a href=""> <i
+															class="mdi mdi-delete lead text-danger ml-3"></i>
+													</a></td>
 												</tr>
 											</tbody>
 										</table>
@@ -85,9 +85,9 @@
 				</div>
 				<!-- content-wrapper ends -->
 				<!-- partial:../../partials/_footer.html -->
-				
+
 				<jsp:include page="footer.jsp"></jsp:include>
-				
+
 				<!-- partial -->
 			</div>
 			<!-- main-panel ends -->
@@ -110,13 +110,13 @@
 	<script src="adminResources/js/form-validation.js"></script>
 	<script src="adminResources/js/bt-maxLength.js"></script>
 	<script src="adminResources/js/formpickers.js"></script>
-  	<script src="adminResources/js/form-addons.js"></script>
-  	<script src="adminResources/js/x-editable.js"></script>
-  	<script src="adminResources/js/dropify.js"></script>
-  	<script src="adminResources/js/dropzone.js"></script>
-  	<script src="adminResources/js/jquery-file-upload.js"></script>
-  	<script src="adminResources/js/formpickers.js"></script>
-  	<script src="adminResources/js/form-repeater.js"></script>
+	<script src="adminResources/js/form-addons.js"></script>
+	<script src="adminResources/js/x-editable.js"></script>
+	<script src="adminResources/js/dropify.js"></script>
+	<script src="adminResources/js/dropzone.js"></script>
+	<script src="adminResources/js/jquery-file-upload.js"></script>
+	<script src="adminResources/js/formpickers.js"></script>
+	<script src="adminResources/js/form-repeater.js"></script>
 	<!-- End custom js for this page-->
 </body>
 
