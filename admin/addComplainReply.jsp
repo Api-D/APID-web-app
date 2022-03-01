@@ -46,22 +46,26 @@
 					<div class="row grid-margin">
 						<div class="col-lg-12">
 							<div class="card">
+								<div class="card-header"
+									style="background: linear-gradient(91deg, #7571f9, transparent);"\>
+									<h3 class="m-0 text-white">Complaint Reply</h3>
+								</div>
 								<div class="card-body">
-									<h4 class="card-title">Complain Reply</h4>
+
 									<form class="cmxform" id="commentForm" method="get" action="#">
 										<fieldset>
 											<div class="form-group">
-												<label for="cname">Subject</label> 
-												<input id="cname" class="form-control"
-													name="name" minlength="2" type="text" readonly>
+												<label for="cname">Subject</label> <input id="cname"
+													class="form-control" name="name" minlength="2" type="text"
+													readonly>
 											</div>
-											
+
 											<div class="form-group">
 												<label for="ccomment">Description</label>
 												<textarea id="ccomment" class="form-control" name="comment"
 													readonly></textarea>
 											</div>
-											
+
 											<div class="form-group">
 												<label for="ccomment">Reply</label>
 												<textarea id="ccomment" class="form-control" name="comment"

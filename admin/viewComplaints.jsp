@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Serein Admin</title>
+<title>Manage Complaints</title>
 <!-- plugins:css -->
 <link rel="stylesheet"
 	href="adminResources/css/materialdesignicons.min.css">
@@ -44,13 +44,17 @@
 			<div class="main-panel">
 				<div class="content-wrapper">
 					<div class="card">
+						<div class="card-header"
+							style="background: linear-gradient(91deg, #7571f9, transparent);"\>
+							<h3 class="m-0 text-white">Manage Complaints</h3>
+						</div>
 						<div class="card-body">
-							<h4 class="card-title">Manage Complaints</h4>
-							<hr><br>
+							
+							<br>
 							<div class="row">
 								<div class="col-12">
 									<div class="table-responsive">
-										<table id="order-listing"  class="table">
+										<table id="order-listing" class="table">
 											<thead>
 												<tr>
 													<th>User</th>
@@ -68,38 +72,37 @@
 													<td>parth123</td>
 													<td>2012/08/03</td>
 													<td>Subject 1</td>
-													<td>All he could think about was how it would all end. There was still a bit of uncertainty in the equation, but the basics were there for anyone to see.</td>
+													<td>All he could think about was how it would all end.
+														There was still a bit of uncertainty in the equation, but
+														the basics were there for anyone to see.</td>
 													<td>Attachment 1</td>
-													<td>he amber droplet hung from the branch, reaching fullness and ready to drop.</td>
-													<td>
-														<a href="">
-															<label class="badge badge-success">Replied</label>
-														</a>
-													</td>
-													<td>
-														<a href="">
-															<i class="mdi mdi-delete lead text-danger ml-3"></i>
-														</a>
-													</td>
+													<td>he amber droplet hung from the branch, reaching
+														fullness and ready to drop.</td>
+													<td><a href=""> <label class="badge badge-success">Replied</label>
+													</a></td>
+													<td><a href=""> <i
+															class="mdi mdi-delete lead text-danger ml-3"></i>
+													</a></td>
 												</tr>
 												<tr>
 													<td>patat123</td>
 													<td>2012/08/03</td>
 													<td>Subject 2</td>
-													<td>It wanted to be remembered long after all the other droplets had dissolved into history. So it waited for the perfect specimen to fly by to trap and capture that it hoped would eventually be discovered hundreds of years in the future.</td>
+													<td>It wanted to be remembered long after all the
+														other droplets had dissolved into history. So it waited
+														for the perfect specimen to fly by to trap and capture
+														that it hoped would eventually be discovered hundreds of
+														years in the future.</td>
 													<td>Attachment 2</td>
 													<td></td>
-													<td>
-														<a href="addComplainReply.jsp" type="button" class="btn btn-outline-info btn-fw">Reply</a>	
-													</td>													
-													<td>
-														<a href="">
-															<i class="mdi mdi-delete lead text-danger ml-3"></i>
-														</a>
-													</td>
-												</tr>											
-											</tbody>									
-										</table>								
+													<td><a href="addComplainReply.jsp" type="button"
+														class="btn btn-outline-info btn-fw">Reply</a></td>
+													<td><a href=""> <i
+															class="mdi mdi-delete lead text-danger ml-3"></i>
+													</a></td>
+												</tr>
+											</tbody>
+										</table>
 									</div>
 								</div>
 							</div>
@@ -108,9 +111,9 @@
 				</div>
 				<!-- content-wrapper ends -->
 				<!-- partial:../../partials/_footer.html -->
-				
+
 				<jsp:include page="footer.jsp"></jsp:include>
-				
+
 				<!-- partial -->
 			</div>
 			<!-- main-panel ends -->
