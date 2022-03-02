@@ -74,7 +74,8 @@
 													<td>This is a Cricket API</td>
 													<td>GET/POST</td>
 													<td>XML</td>
-													<td><a href=""> <i
+													<td><a href=""> <i class="mdi mdi-pencil lead"></i>
+													</a><a href=""> <i
 															class="mdi mdi-delete lead text-danger ml-3"></i>
 													</a></td>
 												</tr>
@@ -86,7 +87,8 @@
 													<td>This is a Football API</td>
 													<td>PUT/PATCH</td>
 													<td>JSON</td>
-													<td><a href=""> <i
+													<td><a href=""> <i class="mdi mdi-pencil lead"></i>
+													</a><a href=""> <i
 															class="mdi mdi-delete lead text-danger ml-3"></i>
 													</a></td>
 												</tr>
