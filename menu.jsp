@@ -34,13 +34,21 @@
 							API</a></li>
 				</ul>
 			</div></li>
+
 		<li class="nav-item"><a  href="viewComplaints.jsp" class="nav-link" >
 				<i class="mdi mdi-headset menu-icon"></i> <span class="menu-title">Manage Complaints</span>
 					</a></li>
 					<li class="nav-item"><a class="nav-link" href="viewFeedback.jsp">
 				<i class="mdi mdi-thumb-up menu-icon"></i> <span class="menu-title" >Manage Feedbacks</span>
 					</a></li>
-					
+
+		<li class="nav-item"><a class="nav-link"
+			href="viewComplaints.jsp"><i class="mdi mdi-headset menu-icon"></i>
+				Manage Complaints</a></li>
+
+		<li class="nav-item"><a class="nav-link" href="viewFeedback.jsp"><i
+				class="mdi mdi-thumb-up menu-icon"> </i>Manage Feedbacks</a></li>
+
 
 		<li class="nav-item"><a class="nav-link" href=""> <i
 				class="mdi mdi-logout menu-icon"></i> <span class="menu-title">Logout</span>
