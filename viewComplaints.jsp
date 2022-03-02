@@ -78,7 +78,7 @@
 													<td>Attachment 1</td>
 													<td>he amber droplet hung from the branch, reaching
 														fullness and ready to drop.</td>
-													<td><a href=""> <label class="badge badge-success">Replied</label>
+													<td><a href=""> <label class="btn btn-success">Replied</label>
 													</a></td>
 													<td><a href=""> <i
 															class="mdi mdi-delete lead text-danger ml-3"></i>
@@ -96,7 +96,7 @@
 													<td>Attachment 2</td>
 													<td></td>
 													<td><a href="addComplainReply.jsp" type="button"
-														class="btn btn-outline-info btn-fw">Reply</a></td>
+														class="btn btn-inverse-danger btn-fw">Reply</a></td>
 													<td><a href=""> <i
 															class="mdi mdi-delete lead text-danger ml-3"></i>
 													</a></td>
