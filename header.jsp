@@ -3,9 +3,9 @@
 	<div
 		class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
 		<a class="navbar-brand brand-logo" href="./index.jsp"><img
-			src="adminResources/image/logo.svg" alt="logo" /></a> <a
+			src="adminResources/image/api-icon-full.png" alt="logo" style="height:40px;width:40px"/></a> <a
 			class="navbar-brand brand-logo-mini" href="./index.jsp"><img
-			src="adminResources/image/logo-mini.svg" alt="logo" /></a>
+			src="adminResources/image/api.png" alt="logo" /></a>
 	</div>
 	<div
 		class="navbar-menu-wrapper d-flex align-items-center justify-content-end">

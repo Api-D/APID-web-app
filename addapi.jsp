@@ -21,7 +21,7 @@
 <!-- inject:css -->
 <link rel="stylesheet" href="adminResources/css/style.css">
 <!-- endinject -->
-<link rel="shortcut icon" href="adminResources/image/favicon.png" />
+<link rel="shortcut icon" href="adminResources/image/api.png" />
 </head>
 
 <div class="container-scroller">
@@ -50,35 +50,11 @@
 								<h3 class="m-0 text-white">Add a new API</h3>
 							</div>
 							<div class="card-body">
-
 								<form class="cmxform" id="commentForm" method="get" action="#">
-									<fieldset>
-										<div class="form-group">
-											<label for="cname">Domain Name</label> <input id="cname"
-												class="form-control" name="name" minlength="2" type="text"
-												required>
-										</div>
-
-										<div class="form-group">
-											<label for="cname">API Name</label> <input id="cname"
-												class="form-control" name="name" minlength="2" type="text"
-												required>
-										</div>
-
-										<div class="form-group">
-											<label for="cname">API Type</label> <select
-												class="form-control " id="exampleFormControlSelect2">
-												<option disabled class="nav-item">Select API Type</option>
-												<option class="nav-item">REST</option>
-												<option class="nav-item">SOAP</option>
-											</select>
-										</div>
-
-
-
-										<div class="form-group">
-											<label for="cname">Request Method Type</label> <select
-												class="form-control " id="exampleFormControlSelect2">
+									<div class="row">
+										<div class="form-group col-4">
+											<label for="cname">Category Name</label> <select
+												class="form-control" id="requestType">
 												<option disabled class="nav-item">Select Request
 													Method Type</option>
 												<option class="nav-item">GET</option>
@@ -88,10 +64,39 @@
 												<option class="nav-item">POST</option>
 											</select>
 										</div>
-										
-										<div class="form-group">
-											<label for="cname">Response Type</label> <select
-												class="form-control " id="exampleFormControlSelect2">
+
+										<div class="form-group col-8">
+											<label for="apiEndpoint">API Name</label> <input
+												id="apiEndpoint" class="form-control" name="name"
+												minlength="2" type="text" required>
+										</div>
+
+										<div class="form-group col-4">
+											<label for="apiType">API Type</label> <select
+												class="form-control " id="apiType">
+												<option disabled class="nav-item">Select API Type</option>
+												<option class="nav-item">REST</option>
+												<option class="nav-item">SOAP</option>
+											</select>
+										</div>
+
+
+										<div class="form-group col-4">
+											<label for="requestType">Request Method Type</label> <select
+												class="form-control " id="requestType">
+												<option disabled class="nav-item">Select Request
+													Method Type</option>
+												<option class="nav-item">GET</option>
+												<option class="nav-item">POST</option>
+												<option class="nav-item">PUT</option>
+												<option class="nav-item">DELETE</option>
+												<option class="nav-item">POST</option>
+											</select>
+										</div>
+
+										<div class="form-group col-4">
+											<label for="responseType">Response Type</label> <select
+												class="form-control " id="responseType">
 												<option disabled class="nav-item">Select Response
 													Type</option>
 												<option class="nav-item">XML</option>
@@ -100,35 +105,28 @@
 										</div>
 
 
-										<div class="form-group">
-											<label for="cname">API Endpoint</label> <input id="cname"
-												class="form-control" name="name" minlength="2" type="text"
-												required>
+										<div class="form-group col-12">
+											<label for="apiEndpoint">API Endpoint</label> <input
+												id="apiEndpoint" class="form-control" name="name"
+												minlength="2" type="text" required>
 										</div>
 
-
-										<div class="form-group">
+										<div class="form-group col-12">
 											<label for="ccomment">API Description</label>
-											<textarea id="ccomment" class="form-control" name="comment"
-												required></textarea>
+											<textarea id="ccomment" class="form-control" name="comment"></textarea>
 										</div>
 
-									
-										
-
-										<div class="form-group">
-											<label for="cname">Sample Request</label> <input id="cname"
-												class="form-control" name="name" minlength="2" type="text"
-												required>
+										<div class="form-group col-6">
+											<label for="sampleRequest">Sample Request</label>
+											<textarea id="ccomment" class="form-control" name="comment"></textarea>
 										</div>
 
-										<div class="form-group">
-											<label for="cname">Sample Response</label> <input id="cname"
-												class="form-control" name="name" minlength="2" type="text"
-												required>
+										<div class="form-group col-6">
+											<label for="sampleResponse">Sample Response</label>
+											<textarea id="ccomment" class="form-control" name="comment" readonly></textarea>
 										</div>
-										<input class="btn btn-primary" type="submit" value="Save">
-									</fieldset>
+									</div>
+									<input class="btn btn-primary" type="submit" value="Save">
 								</form>
 							</div>
 						</div>

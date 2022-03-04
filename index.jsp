@@ -21,7 +21,7 @@
 <!-- inject:css -->
 <link rel="stylesheet" href="adminResources/css/style.css">
 <!-- endinject -->
-<link rel="shortcut icon" href="adminResources/image/favicon.png" />
+<link rel="shortcut icon" href="adminResources/image/api-icon-mini.png" />
 </head>
 <body>
 	<div class="container-scroller">
@@ -316,9 +316,9 @@
 										<img class="img-md rounded"
 											src="adminResources/image/face1.jpg" alt="">
 										<div class="wrapper ml-4">
-											<p class="font-weight-medium">Tim Cook</p>
-											<p class="text-muted">timcook@gmail.com</p>
-											<p class="text-info mb-0 font-weight-medium">Designer</p>
+											<p class="font-weight-medium">Aakash Bhalani</p>
+											<p class="text-muted">aakashbhalani0911@gmail.com</p>
+											<p class="text-info mb-0 font-weight-medium">Developer</p>
 										</div>
 									</div>
 								</div>
@@ -332,8 +332,8 @@
 										<img class="img-md rounded"
 											src="adminResources/image/face2.jpg" alt="">
 										<div class="wrapper ml-4">
-											<p class="font-weight-medium">Sarah Graves</p>
-											<p class="text-muted">Sarah@gmail.com</p>
+											<p class="font-weight-medium">Aniket Ahir</p>
+											<p class="text-muted">ahiraniket@outlook.in</p>
 											<p class="text-info mb-0 font-weight-medium">Developer</p>
 										</div>
 									</div>
@@ -348,8 +348,8 @@
 										<img class="img-md rounded"
 											src="adminResources/image/face3.jpg" alt="">
 										<div class="wrapper ml-4">
-											<p class="font-weight-medium">David Grey</p>
-											<p class="text-muted">David@gmail.com</p>
+											<p class="font-weight-medium">Parth Patat</p>
+											<p class="text-muted">parthpatat1001@gmail.com</p>
 											<p class="text-info mb-0 font-weight-medium">Support Lead</p>
 										</div>
 									</div>
