@@ -14,7 +14,7 @@
             ],
             borderWidth: 1,
             fill: 'origin',
-            label: "online"
+            label: "Developers"
           },
           {
             data: [0, 100, 200, 100, 150, 75, 200, 50],
@@ -26,7 +26,7 @@
             ],
             borderWidth: 1,
             fill: 'origin',
-            label: "store"
+            label: "End-Users"
           }
         ]
       };
@@ -93,7 +93,7 @@
         data: {
           labels: ['Jan', 'Feb', 'Mar', 'Arl', 'May', 'Jun', 'Jul', 'Aug'],
           datasets: [{
-              label: "Ios",
+              label: "Cricket",
               borderColor: 'rgba(77, 124, 255, .8)',
               backgroundColor: 'rgba(77, 124, 255, .8)',
               pointRadius: 0,
@@ -103,7 +103,7 @@
               data: [0, 0, 30, 0, 0, 0, 50, 0]
             },
             {
-              label: "Android",
+              label: "Covid-19",
               borderColor: 'rgba(235, 105, 143, .9)',
               backgroundColor: 'rgba(235, 105, 143, .9)',
               pointRadius: 0,
@@ -113,7 +113,7 @@
               data: [0, 35, 0, 0, 30, 0, 0, 0]
             },
             {
-              label: "Windows",
+              label: "Finance",
               borderColor: 'rgba(241, 155, 84, .8)',
               backgroundColor: 'rgba(241, 155, 84, .8)',
               pointRadius: 0,
@@ -203,9 +203,9 @@
     
         // These labels appear in the legend and in the tooltips when hovering different arcs
         labels: [
-          'Facebook',
-          'Google',
-          'Linkedin',
+          'Developer',
+          'End-Users',
+          'Professionals',
         ]
       };
       var trafficChartOptions = {
