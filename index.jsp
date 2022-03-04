@@ -21,7 +21,7 @@
 <!-- inject:css -->
 <link rel="stylesheet" href="adminResources/css/style.css">
 <!-- endinject -->
-<link rel="shortcut icon" href="adminResources/image/api-icon-mini.png" />
+<link rel="shortcut icon" href="adminResources/image/favicon.png" />
 </head>
 <body>
 	<div class="container-scroller">
@@ -330,7 +330,7 @@
 									<div
 										class="wrapper d-flex align-items-center justify-content-start justify-content-sm-center flex-wrap">
 										<img class="img-md rounded"
-											src="adminResources/image/face2.jpg" alt="">
+											src="adminResources/image/face2.jpg" alt="" style="height:100px; margin-left:0">
 										<div class="wrapper ml-4">
 											<p class="font-weight-medium">Aniket Ahir</p>
 											<p class="text-muted">ahiraniket@outlook.in</p>
